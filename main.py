@@ -4,9 +4,8 @@ print("|  _/ || |  _| ' \/ _ \ ' \  | |\/| / _` |  _| ' |")
 print("|_|  \_, |\__|_||_\___/_||_| |_|  |_\__,_|\__|_||_|")
 print("      |__/")                                       
 print("\n")
-
-print ("Select Operation")
-print ("1.Area")
+print("Select a math operation")
+print("1.Area")
 print("2.Perimeter")
 print("\n")
 print("----------------------------")
@@ -17,7 +16,6 @@ if choice == '1':
   num2 = int(input("Enter Height:"))
 if choice == '1':
   print(num1, "*",num2,"=", num1 * num2)
-
 if choice == '1':
   print("  -----------")
   print("|           |")
@@ -30,7 +28,6 @@ if choice == '1':
   print("--------------------")
   print("\n")
   print("Area=", num1*num2)
-
 def add(num1, num2):
   return num1 + num2
 def multiply(x, y):
